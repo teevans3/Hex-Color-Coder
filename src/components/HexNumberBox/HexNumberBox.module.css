@@ -1,0 +1,122 @@
+.HexNumberBox {
+  width: 100px;
+  height: 200px;
+  border: 1px solid black;
+  background-color: white;
+  margin-left: 4px;
+  margin-right: 4px;
+  border: 2px solid #a9a9a9;
+  border-radius: 60px;
+}
+
+.HexHashTag {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 76px;
+  width: 100%;
+  color: #a9a9a9;
+  margin-top: 52px;
+}
+
+.HexNumber {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 76px;
+  width: 100%;
+}
+
+.HexButtonTop {
+  height: 40px;
+  width: 62px;
+  margin-top: 12px;
+  border: none;
+  background-color: white;
+}
+
+.HexButtonBottom {
+  height: 40px;
+  width: 62px;
+  border: none;
+  background-color: white;
+}
+
+i {
+  color: #d3d3d3;
+}
+
+.HexArrowUp,
+.HexArrowDown {
+  font-size: 3em;
+}
+
+@media (max-width: 800px) {
+  .HexNumberBox {
+    width: 50px;
+    height: 100px;
+    border-radius: 40px;
+  }
+
+  .HexHashTag {
+    font-size: 38px;
+    margin-top: 24px;
+  }
+
+  .HexNumber {
+    font-size: 38px;
+    padding: 0;
+  }
+
+  .HexButtonTop {
+    height: 20px;
+    width: 31px;
+    margin-top: 6px;
+  }
+
+  .HexButtonBottom {
+    height: 20px;
+    width: 31px;
+  }
+
+  .HexArrowUp,
+  .HexArrowDown {
+    font-size: 1.5em !important;
+  }
+}
+
+@media (max-width: 300px) {
+  .HexNumberBox {
+    width: 25px;
+    height: 50px;
+    border-radius: 20px;
+  }
+
+  .HexHashTag {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+
+  .HexNumber {
+    font-size: 14px;
+    padding: 0;
+  }
+
+  .HexButtonTop {
+    height: 10px;
+    width: 16px;
+    margin-top: 0px;
+    margin-right: 6px;
+    border-top-left-radius: 10px;
+  }
+
+  .HexButtonBottom {
+    height: 10px;
+    width: 16px;
+    margin-right: 6px;
+    margin-bottom: 2px;
+  }
+
+  .HexArrowUp,
+  .HexArrowDown {
+    font-size: 1em !important;
+  }
+}
